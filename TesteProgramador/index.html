@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/button.css" />
+    <link rel="stylesheet" href="./css/header-title.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/records.css" />
+    <title>CRUDs</title>
+  </head>
+  <body>
+    <header>
+      <h1 class="header-title">Sistema de Cadastro</h1>
+    </header>
+    <main>
+      <!-- Tabela de Produtos -->
+      <button type="button" class="button blue">Cadastrar Produto</button>
+      <table class="records">
+        <thead>
+          <tr>
+            <th>Código</th>
+            <th>Descrição</th>
+            <th>Preço</th>
+            <th>Ação</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Mascara anti-COVID</td>
+            <td>R$25,00</td>
+            <td>
+              <button type="button" class="button green">editar</button>
+              <button type="button" class="button red">excluir</button>
+            </td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>Muamba do Paraguai</td>
+            <td>R$222,00</td>
+            <td>
+              <button type="button" class="button green">editar</button>
+              <button type="button" class="button red">excluir</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <!-- Fim tabela Produtos -->
+      <!-- Tabela Estoques -->
+      <button type="button" class="button blue">Cadastrar Estoque</button>
+      <table class="records">
+        <thead>
+          <tr>
+            <th>Código</th>
+            <th>Quantidade</th>
+            <th>Ação</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>1100 Unidades</td>
+            <td>
+              <button type="button" class="button green">editar</button>
+              <button type="button" class="button red">excluir</button>
+            </td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>1100 Unidades</td>
+            <td>
+              <button type="button" class="button green">editar</button>
+              <button type="button" class="button red">excluir</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <!-- Fim tabela Estoques -->
+      <!-- Tabela Vendas -->
+      <button type="button" class="button blue">Cadastrar Vendas</button>
+      <table class="records">
+        <thead>
+          <tr>
+            <th>Código</th>
+            <th>Data</th>
+            <th>Quantidade</th>
+            <th>CPF</th>
+            <th>Ação</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>12/08/2020</td>
+            <td>1</td>
+            <td>171.47.128-09</td>
+            <td>
+              <button type="button" class="button green">editar</button>
+              <button type="button" class="button red">excluir</button>
+            </td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>21/08/2020</td>
+            <td>1</td>
+            <td>222.222.322-32</td>
+            <td>
+              <button type="button" class="button green">editar</button>
+              <button type="button" class="button red">excluir</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </main>
+    <footer>Footer</footer>
+  </body>
+</html>
